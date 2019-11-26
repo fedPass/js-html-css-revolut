@@ -38,6 +38,13 @@ header a:hover {
     color: rgb(25, 28, 31);
 }
 
+header small {
+    position: relative;
+    bottom: 5px;
+    color: rgb(235, 0, 141);
+    font-weight: bold;
+}
+
 #header-left {
     width: 30%;
     height: 70px;
@@ -91,6 +98,7 @@ header a:hover {
 }
 
 .dropdown-content {
+    width: max-content; /*trovata a culo per non far andare accapo le scritte del menù*/
     padding: 15px;
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
