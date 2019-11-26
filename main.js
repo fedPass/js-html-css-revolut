@@ -7,6 +7,14 @@ $(document).ready(function(){
         if ($('.dropdown-content.languages').is(':visible')) {
             $('.fas.fa-caret-down').removeClass('fa-caret-down').addClass('fa-caret-up');
         } else {
-            $('.fas.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');}
+            $('.fas.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');
+        }
+
+        // if ($('.dropdown-content.languages').is(':visible')) {
+        //     $('#icon').html('<i class="fas fa-caret-up"></i>');
+        // } else {
+        //     $('#icon').html('<i class="fas fa-caret-down"></i>');
+        // }
+
     });
 });
